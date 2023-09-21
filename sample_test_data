@@ -1,0 +1,47 @@
+
+Sample data 
+
+Name= "selenium-hub-a0c07304-ca36-47a1-bfcb-f3046dd509a7.cicd.ss.frontlineeducation.com."
+Type= "A"
+
+---------------------
+
+
+record name
+selenium-hub-a0c07304-ca36-47a1-bfcb-f3046dd509a7
+
+record type A
+
+alias enabled
+
+route traffic to
+ALias to app or classic lload balancer
+
+n.virginia
+
+internal-glados-ilb-traefik-cicd-1485787263.us-east-1.elb.amazonaws.com.
+
+simple routing
+
+evaluate health target : yes
+
+
+
+
+----------------------
+
+record name
+selenium-hub-a0c07304-ca36-47a1-bfcb-f3046dd509a7
+
+type txt
+
+alias disabled
+
+value
+"heritage=external-dns,external-dns/owner=glados,external-dns/resource=ingress/selenium/selenium-hub-a0c07304-ca36-47a1-bfcb-f3046dd509a7"
+
+ttl 300
+
+routing policy simple
+
+
