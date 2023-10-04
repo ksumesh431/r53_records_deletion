@@ -2,7 +2,7 @@
 
 
 # Define your hosted zone ID and prefixes/types to match
-HOSTED_ZONE_ID="Z35D8BV99XPVVO"
+HOSTED_ZONE_ID=""
 PREFIXES=("cname-selenium-hub-" "selenium-hub-")
 TYPES=("TXT" "A")
 
