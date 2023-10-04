@@ -1,6 +1,7 @@
 #!/bin/bash
 
-HOSTED_ZONE_ID="Z35D8BV99XPVVO"
+# Add hosted zone id here
+HOSTED_ZONE_ID=""
 OUTPUT_FILE="route53_records_to_delete.txt"
 
 # Function to update a record with dummy data in order to delete it using the dummy data as parameter
